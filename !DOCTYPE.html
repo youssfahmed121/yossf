@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youssef | AI Automation</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Cairo', sans-serif;
+    }
+    body {
+      background: linear-gradient(to bottom right, #0f172a, #1e293b);
+      color: #e2e8f0;
+      line-height: 1.6;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    header {
+      background-color: #1e293b;
+      padding: 2rem 1rem;
+      text-align: center;
+      animation: slideDown 1s ease-out;
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s, transform 0.3s;
+    }
+    nav a:hover {
+      color: #ffffff;
+      transform: scale(1.1);
+    }
+    section {
+      padding: 2rem 1.5rem;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeInUp 1s ease;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #38bdf8;
+      animation: fadeInUp 1s ease;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .projects, .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 1rem;
+      border-radius: 10px;
+      transition: transform 0.3s, background-color 0.3s;
+      animation: fadeInCard 0.8s ease-in;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    .card:hover {
+      background-color: #334155;
+      transform: scale(1.05);
+    }
+    @keyframes fadeInCard {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1e293b;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      animation: fadeIn 1s ease-in;
+    }
+    a {
+      color: #38bdf8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Youssef | AI Automation Beginner</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Youssef, passionate about <strong>AI Automation</strong>. I started this journey to build smart solutions that save time and effort using tools like <strong>n8n</strong>, <strong>Make</strong>, and <strong>Zapier</strong>.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Current Skills</h2>
+    <div class="skills">
+      <div class="card">Basic Automation Concepts</div>
+      <div class="card">Working with n8n</div>
+      <div class="card">Workflow Creation</div>
+      <div class="card">API Integrations</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Automated Email Sender</h3>
+        <p>Workflow using n8n that collects data from a form and sends automatic emails to clients.</p>
+      </div>
+      <div class="card">
+        <h3>Social Media Scheduler</h3>
+        <p>Automation to schedule and post daily content on social media using AI tools and Make.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Interested in working together or have a question? Reach me via email or phone:</p>
+    <p>Email: <a href="mailto:you@example.com">youssfahmed130@gmail.com</a></p>
+    <p>Phone: <a href="tel:01021152357">01021152357</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Youssef | AI Automation. All rights reserved.</p>
+  </footer>
+</body>
+</html>
